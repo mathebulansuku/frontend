@@ -1,0 +1,25 @@
+/* Write your code here: */
+
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/*child selector*/
+.box > .done {
+  color: firebrick;
+}
+
+/*descedant selector*/
+.box .list {
+  color: blue;
+}
+
+/*Chaining Selector, Start with the element*/
+li.done {
+  color: seagreen;
+}
+
+ul p.done {
+  font-size: 0.5rem;
+}
